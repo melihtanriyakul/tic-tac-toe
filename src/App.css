@@ -22,6 +22,29 @@
   color: #61dafb;
 }
 
+#root {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 30px;
+    background-color: white;
+    border-color: black;
+}
+
+ol {
+    list-style-type: none;
+    margin-right: 40px;
+}
+.status {
+    margin-bottom: 20px;
+    border: solid 2px black;
+    width: 10%;
+    padding: 5px;
+    margin-left: 45%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -29,4 +52,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.square {
+  padding: 30px;
+  background-color: white;
+  border-color: black;
 }
